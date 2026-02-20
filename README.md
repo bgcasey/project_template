@@ -12,6 +12,24 @@
 ![Languages](https://img.shields.io/badge/Languages-R-blue)
 
 
+## Table of Contents
+- [About](#about)
+- [Methodological Workflow](#methodological-workflow)
+- [Script Summary Table](#script-summary-table)
+- [Contact](#contact)
+
+---
+
+## About
+
+
+## Methodological Workflow
+
+
+## Script Summary Table
 
 
 
+## Contact
+
+For any questions regarding the contents of this repository or data access, please contact Brendan Casey at brendan.casey@ualberta.ca.
