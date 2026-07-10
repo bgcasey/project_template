@@ -1,14 +1,14 @@
 # ---
-# title: "Title"
-# author: "Your Name"
-# created: "YYYY-MM-DD"
+# title: [Title]
+# author: [Your Name]
+# created: [YYYY-MM-DD]
 # inputs: [list the required input files]
 # outputs: [list the output files produced by the script]
-# notes: 
-#   "This script performs [describe the main purpose of the script].
-#   The script uses [briefly describe data or object inputs] to 
-#   [briefly describe the main steps or processes]. The script
-#   produces [describe the final output]."
+# notes:
+#   [A concise explanation of what the code does, its purpose,
+#   and any important details about its function. You can also use
+#   this section to list proposed improvements for the code for
+#   future iterations.]
 # ---
 
 # 1. Setup ----
@@ -17,9 +17,9 @@
 # Include comments for what the packages are used for
 # Specify the package version for reproducibility.
 # Example:
-library(tidyverse) # data manipulation and visualization (version: 1.3.1)
+library(tidyverse) # data manipulation, visualization (version: 1.3.1)
 library(lubridate) # manipulating date times (version: 1.7.10)
-library(ggplot2)   # visualization (version: 3.3.5)
+library(ggplot2) # visualization (version: 3.3.5)
 
 ## 1.2 Import data ----
 # Load your data here
@@ -27,41 +27,34 @@ library(ggplot2)   # visualization (version: 3.3.5)
 # data <- read.csv("path/to/your/data.csv")
 
 # 2. [heading] ----
-# This section [describe the purpose of this section].
-# The section uses [briefly describe data or object inputs].
-# It includes steps to [briefly describe the main steps or processes].
-# The section produces [describe the section's output].
+# [briefly describe this section, it's purpose, data or object
+# inputs, the main steps or processes, and outputs].
 
 ## 2.1 [subheading] ----
 
 ## 2.2 [subheading] ----
 
 # 3. [heading]  ----
-# This section [describe the purpose of this section].
-# The section uses [briefly describe data or object inputs].
-# It includes steps to [briefly describe the main steps or processes].
-# The section produces [describe the section's output].
+# [briefly describe this section, it's purpose, data or object
+# inputs, the main steps or processes, and outputs].
 
 ## 3.1 [subheading] ----
 
 # 4. [heading]  ----
-# This section [describe the purpose of this section].
-# The section uses [briefly describe data or object inputs].
-# It includes steps to [briefly describe the main steps or processes].
-# The section produces [describe the section's output].
+# [briefly describe this section, it's purpose, data or object
+# inputs, the main steps or processes, and outputs].
 
 ## 4.1 [subheading] ----
 
 # 5. [heading]  ----
-# Description of step 5 code.
+# [briefly describe this section, it's purpose, data or object
+# inputs, the main steps or processes, and outputs].
 
 ## 5.1 [subheading] ----
 
 # 6. [heading]  ----
-# This section [describe the purpose of this section].
-# The section uses [briefly describe data or object inputs].
-# It includes steps to [briefly describe the main steps or processes].
-# The section produces [describe the section's output].
+# [briefly describe this section, it's purpose, data or object
+# inputs, the main steps or processes, and outputs].
 
 ## 6.1 [subheading] ----
 
