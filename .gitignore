@@ -36,21 +36,22 @@ vignettes/*.pdf
 *.knit.md
 
 
-# Ignore everything in 0_code
-0_data/*
-!0_code/*.gitkeep
+# Ignore everything in 0_data except folder structure
+0_data/**
+!0_data/**/
+!0_data/**/.gitkeep
 
-# Ignore everything in 2_pipeline
-2_pipeline/*
-!2_pipeline/*.gitkeep
+# Ignore everything in 2_pipeline except folder structure
+2_pipeline/**
+!2_pipeline/**/
+!2_pipeline/**/.gitkeep
 
-# Ignore everything in 3_output
-3_output/*
-!3_output/*.gitkeep
+# Ignore everything in 3_output except folder structure
+3_output/**
+!3_output/**/
+!3_output/**/.gitkeep
 
-# Ignore everything in 4_writing
-4_writing/*
-!4_writing/*.gitkeep
-
-5_presentations/*
-!5_presentations/*.gitkeep
+# Ignore everything in 4_writing except folder structure
+4_writing/**
+!4_writing/**/
+!4_writing/**/.gitkeep
