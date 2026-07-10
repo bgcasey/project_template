@@ -14,6 +14,7 @@
 
 ## Table of Contents
 - [About](#about)
+- [Directory Structure](#directory-structure)
 - [Methodological Workflow](#methodological-workflow)
 - [Script Summary Table](#script-summary-table)
 - [Contact](#contact)
@@ -21,6 +22,30 @@
 ---
 
 ## About
+
+
+## Directory Structure
+
+| **Item**                 | **Description**                        |
+| ------------------------ | -------------------------------------- |
+| **0_data/**              | Raw and manipulated data               |
+| ├── external/            | Raw data from external sources         |
+| └── processed/           | Data that has been manipulated         |
+| **1_code/**              | Code and scripts for analysis          |
+| ├── r/                   | R scripts                              |
+| ├── python/              | Python scripts                         |
+| └── javascript/          | JavaScript scripts                     |
+| **2_pipeline/**          | Temporary pipeline files               |
+| **3_output/**            | Final project output files             |
+| ├── data/                | Processed datasets                     |
+| ├── figures/             | Generated figures                      |
+| ├── maps/                | Generated maps                         |
+| ├── models/              | Model outputs                          |
+| └── tables/              | Tables from analysis                   |
+| **4_writing/**           | Manuscript and reports                 |
+| ├── manuscript/          | Drafts of the manuscript               |
+| └── reports/             | Reports and additional documents       |
+| **README.md**            | Project overview and instructions      |
 
 
 ## Methodological Workflow
