@@ -1,16 +1,4 @@
 """
----
-title: Python Function Template
-author: Brendan Casey
-created: 2024-12-13
-notes: 
-  Template for creating properly formatted and documented Python
-  functions.
----
-"""
-
-
-"""
 [Title of the Function]
 
 [Brief description of what the function does]

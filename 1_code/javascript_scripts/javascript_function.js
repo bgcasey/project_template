@@ -1,15 +1,3 @@
-/*
- * ---
- * title: JavaScript functions template
- * author: Brendan Casey
- * created: 2024-12-13
- * notes: 
- *  Template for creating properly formatted and  
- *  documented JavaScript functions.
- * ---
- */
-
- 
 /**
  * [Title of the Function]
  * 

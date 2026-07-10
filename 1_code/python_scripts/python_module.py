@@ -1,18 +1,7 @@
 """
 ---
-title: Python Module Template
-author: Brendan Casey
-created: 2024-12-13
-notes: 
-  Template for creating properly formatted and documented Python
-  modules.
----
-"""
-
-"""
----
 title: [Title]
-author: [Your Name]
+author: Brendan Casey
 created: [YYYY-MM-DD]
 inputs: [list the required input files]
 outputs: [list the output files produced by the script]

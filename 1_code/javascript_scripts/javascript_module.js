@@ -1,19 +1,7 @@
 /*
  * ---
- * title: JavaScript module template
- * author: Brendan Casey
- * created: 2024-12-13
- * notes: 
- *  Template for creating properly formatted and  
- *  documented JavaScript modules.
- * ---
- */
-
-
-/*
- * ---
  * title: [Title]
- * author: [Your Name]
+ * author: Brendan Casey
  * created: [YYYY-MM-DD]
  * inputs: [List the required inputs]
  * outputs: [List the outputs produced by the script]
@@ -82,7 +70,7 @@ Map.addLayer(results, {
   palette: ['blue', 'white', 'green']
 }, 'Results');
 
-/* 4. Export Outputs */
+/* 4. Export Outputs
  * This section exports the processed data or other results.
  * Specify the export format, destination, and additional
  * parameters.

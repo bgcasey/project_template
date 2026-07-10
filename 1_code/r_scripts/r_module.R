@@ -1,6 +1,6 @@
 # ---
 # title: [Title]
-# author: [Your Name]
+# author: Brendan Casey
 # created: [YYYY-MM-DD]
 # inputs: [list the required input files]
 # outputs: [list the output files produced by the script]
