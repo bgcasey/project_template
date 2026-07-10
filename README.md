@@ -37,11 +37,12 @@
 | └── javascript/          | JavaScript scripts                     |
 | **2_pipeline/**          | Temporary pipeline files               |
 | **3_output/**            | Final project output files             |
-| ├── data/                | Processed datasets                     |
-| ├── figures/             | Generated figures                      |
-| ├── maps/                | Generated maps                         |
-| ├── models/              | Model outputs                          |
-| └── tables/              | Tables from analysis                   |
+| └── v0.1/                | Versioned output folder                |
+| &nbsp;&nbsp;&nbsp;├── data/     | Processed datasets              |
+| &nbsp;&nbsp;&nbsp;├── figures/  | Generated figures               |
+| &nbsp;&nbsp;&nbsp;├── maps/     | Generated maps                  |
+| &nbsp;&nbsp;&nbsp;├── models/   | Model outputs                   |
+| &nbsp;&nbsp;&nbsp;└── tables/   | Tables from analysis            |
 | **4_writing/**           | Manuscript and reports                 |
 | ├── manuscript/          | Drafts of the manuscript               |
 | └── reports/             | Reports and additional documents       |
