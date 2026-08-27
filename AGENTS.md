@@ -145,8 +145,8 @@ via GitHub's **"Use this template"** button.
   curly brackets `{}`, end a line with `{` and start a line with `}`.
 - Use `<-` for assignment (not `=`). Default to `%>%` for pipes in R
   unless a project standardizes on `|>`.
-- Comments begin with `#` followed by a space and explain **why**, not
-  just what — purpose, inputs, outputs, rationale.
+- Comments begin with `#` followed by a space, stay concise, and are
+  used only when they add context the code does not already make clear.
 - No commented-out, unused, or duplicate code in committed files.
 - Auto-format R with `styler`:
 
@@ -194,10 +194,8 @@ Every script starts with a header:
 # inputs: [list the required input files]
 # outputs: [list the output files produced by the script]
 # notes:
-#   [A concise explanation of what the code does, its purpose,
-#   and any important details about its function. You can also use
-#   this section to list proposed improvements for the code for
-#   future iterations.]
+#   [A concise summary of what the code does and any important
+#   details needed to use or maintain it.]
 # ---
 
 # 1. Setup ----
@@ -213,8 +211,8 @@ library(lubridate) # manipulating date times (version: 1.7.10)
 # data <- read.csv("path/to/your/data.csv")
 
 # 2. [heading] ----
-# [briefly describe this section, its purpose, data or object
-# inputs, the main steps or processes, and outputs].
+# [briefly describe this section only where the code would
+# otherwise be unclear].
 
 ## 2.1 [subheading] ----
 
@@ -335,7 +333,8 @@ reviewing others' code. Assess five areas:
    (no redundant computation, appropriate data structures,
    parallel/batch where suitable, function reuse).
 5. **Intelligibility** — clear, documented, easy to understand (header
-   present, modular single-purpose units, comments explain *why*,
+  present, modular single-purpose units, concise comments only where
+  needed,
    complete docs, code in the right location, logical numbered flow).
 
 **Output format:**
