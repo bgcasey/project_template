@@ -1,11 +1,10 @@
-# CLAUDE.md
+# AGENTS.md
 
-Conventions for Claude Code when working across these ABMI
-biodiversity-modelling repositories (species distribution models,
-biodiversity indicators, geospatial workflows). Adapted from
+Conventions for LLM Agents when working across these my code repositories. Adapted from
 [`bgcasey/code_standards`](https://github.com/bgcasey/code_standards) —
 personal coding conventions followed across projects to keep work
 consistent and reproducible.
+
 
 The goal is reproducible, reviewable, well-documented code that a
 colleague — or future me — can pick up, run, and build on without
