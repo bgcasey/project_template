@@ -9,13 +9,17 @@ consistent and reproducible.
 The goal is reproducible, reviewable, well-documented code that a
 colleague — or future me — can pick up, run, and build on without
 re-tracing the reasoning. Every project is unique; where a project
-deviates from these conventions, note the change and the reasoning so
-it's clear later.
+requires implementation notes, coding rationale, tradeoff discussion,
+or deviations from these conventions, keep that material in the chat
+response or project documentation unless the user explicitly asks for
+it in the code.
 
 > **How to use this file:** Follow these conventions by default. When a
 > repository's own `README.md`, `.Rproj`, or a local override says
-> something different, the repository wins — note the deviation and the
-> reason.
+> something different, the repository wins. Keep implementation
+> rationale, change explanations, and deviations in the chat or docs,
+> not in source comments, headers, or docstrings, unless the user asks
+> for that documentation in code.
 >
 > **Templates are canonical in `code_standards`.** The template excerpts
 > embedded below are trimmed for reference and can drift; treat
@@ -146,6 +150,10 @@ via GitHub's **"Use this template"** button.
   unless a project standardizes on `|>`.
 - Comments begin with `#` followed by a space, stay concise, and are
   used only when they add context the code does not already make clear.
+- Do not add comments that explain house-style compliance, justify
+  specific code changes or design choices, narrate the LLM's actions,
+  or preserve implementation rationale that is more useful in the chat
+  response than in the code itself.
 - No commented-out, unused, or duplicate code in committed files.
 - Auto-format R with `styler`:
 
